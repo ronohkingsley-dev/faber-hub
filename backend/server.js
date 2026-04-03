@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 4000;
 app.use(cors({
   origin: (origin, cb) => {
     // Allow any localhost origin (any port) + no-origin requests (Postman, curl)
-    if (!origin || /^http:\/\/localhost:\d+$/.test(origin)) return cb(null, true);
+    if (!origin || /^http:\/\/localhost:\d+$/.test(origin) || origin.endsWith('netlify.app')) return cb(null, true);
     cb(new Error('CORS blocked: ' + origin));
   },
   credentials: true
