@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "name": "Kingsley_Admin",
+      "email": "admin@faber.net",
+      "password": "$2b$10$0fw0yAdm9LWMBn/X1dXK3e0HSzg6f8lunMfY6wr5baV/zJ1DeBwNC",
+      "department": "Mechanical",
+      "node_id": "FBR-KNGS-MMUST",
+      "role": "ROOT_ADMIN",
+      "bio": "Founder & Lead Engineer at FABER.NET",
+      "avatar_url": "",
+      "created_at": "2026-03-31T14:36:35.060Z"
+    },
+    {
+      "id": "2edb6377-761e-4b1b-989f-02e0bdf21619",
+      "name": "Guest Engineer",
+      "email": "ronohkingsley@gmail.com",
+      "password": "$2b$10$.Kt3Y.uTql7pQeWOTloGUOktMLKwPCRu2zuCmyprehDNN3hUgdccO",
+      "department": "Guest",
+      "node_id": "DEMO-NFZS",
+      "role": "demo",
+      "bio": "Viewing the platform in Demo mode.",
+      "avatar_url": "",
+      "created_at": "2026-04-03T04:41:42.107Z"
+    },
+    {
+      "id": "480fe67f-52b3-4247-b1db-cb5a92a0d572",
+      "name": "Guest Engineer",
+      "email": "ronohkingsley@gmail.com",
+      "password": "$2b$10$JBXHTETPML6HLUO0Ki3kUuhnX5Fg.uyYvB76R1lwLggHF9W2q9hq.",
+      "department": "Guest",
+      "node_id": "DEMO-K93Y",
+      "role": "demo",
+      "bio": "Viewing the platform in Demo mode.",
+      "avatar_url": "",
+      "created_at": "2026-04-03T07:21:01.391Z"
+    },
+    {
+      "id": "0ab9a18c-7e4d-418d-ae74-88fb303e1b8a",
+      "name": "ronoh kingsley",
+      "email": "ronokingdley@gmail.com",
+      "password": "$2b$10$tLMyRVl40MemzsKPhprMk.MTyhchs6v0SAO7owv/j8m.Jy34dZsHS",
+      "department": "Mechanical",
+      "node_id": "FBR-FJZK-MMUST",
+      "role": "user",
+      "bio": "",
+      "avatar_url": "",
+      "created_at": "2026-04-03T11:23:57.243Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "ec56e78f-5bf1-4824-820c-0453064ad41a",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "Cantilever Bridge FEA — Load Case Analysis",
+      "body": "Running a parametric FEA study on concrete cantilever sections. Max displacement: 12mm under 200kN point load.",
+      "type": "blog",
+      "file_name": null,
+      "file_url": null,
+      "file_type": null,
+      "created_at": "2026-03-31T14:36:35.352Z"
+    },
+    {
+      "id": "53aa0f85-17c1-4b0c-ba54-26f5f9d66f2a",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "Apex flux os",
+      "body": "Digital zero cloud monetary control system optimized and designed to suit your needs in your journey to financial discipline",
+      "type": "blog",
+      "file_name": null,
+      "file_url": null,
+      "file_type": null,
+      "created_at": "2026-03-31T18:20:32.504Z"
+    },
+    {
+      "id": "4c549aac-9726-4660-8d2d-9282985a03f5",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "inventor 2023",
+      "body": "inventor 2023 Drawing test",
+      "type": "fieldlog",
+      "file_name": null,
+      "file_url": null,
+      "file_type": null,
+      "created_at": "2026-04-03T11:42:41.142Z"
+    },
+    {
+      "id": "41874067-c5b1-4b0c-aaf3-487926e522b0",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "smart",
+      "body": "Ran command: `Test-NetConnection -ComputerName localhost -PortInformationLevel Quiet; Test-NetConnection -ComputerName localhost -PInformationLevel Quiet`\nRan command: `npm.cmd start`\nRan command: `npm.cmd run dev`\nBrowser task: \"UI & Logic Features E2E Testing\"\n\nI attempted to run an automated visual end-to-end test on the platform, but my internal automated test browser encountered a terminal failure (`target closed: could not read protocol padding: EOF`) when attempting to launch `h\n\nThis is a known issue with my internal browser container which is out of my control. I must ask you how you would like to proceed. \n\nHowever, I have fully restarted both your backend and your Vite development server, meaning the platform is live right now! You can navigate to `** directly on your own browser.\n\nTake a look around — check the **Reels** tab, click `+` to open the Reel upload flow, test the **YOUR MEDIA** and **YOUR POSTS** tabs, and check your **Admin Dashboard**. Let me know how it feels or if you need any further logic adjustments!",
+      "type": "blog",
+      "file_name": "Kiplangat_Kingsley_Mie_Interpenetration 3-Model.pdf",
+      "file_url": "/uploads/post/Kiplangat_Kingsley_Mie_Interpenetration_3-Model_ba6fd20e.pdf",
+      "file_type": "pdf",
+      "created_at": "2026-04-03T12:32:47.662Z"
+    },
+    {
+      "id": "7409d852-2d81-480e-934d-e81a6437f0e4",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "wdscabc",
+      "body": "smagsxc jdfgfteRan command: `Test-NetConnecRan command: `Test-NetConnection -ComputerName localhost  -InformationLevel Quiet; Test-NetConnection -ComputerName  -InformationLevel Quiet`\nRan command: `npm.cmd start`\nRan command: `npm.cmd run dev`\nBrowser task: \"UI & Logic Features E2E Testing\"\n\nI attempted to run an automated visual end-to-end test on the platform, but my internal automated test browser encountered a terminal failure (`target closed: could not read protocol padding: EOF`) when attempting to launch `. \n\nThis is a known issue with my internal browser container which is out of my control. I must ask you how you would like to proceed. \n\nHowever, I have fully restarted both your backend and your Vite development server, meaning the platform is live right now! You can navigate to **`http://localhost:5173`** directly on your own browser.\n\nTake a look around — check the **Reels** tab, click `+` to open the Reel upload flow, test the **YOUR MEDIA** and **YOUR POSTS** tabs, and check your **Admin Dashboard**. Let me know how it feels or if you need any further logic adjustments!`** directly on your own browser.\n\nTake a look around — check the **Reels** tab, click `+` to open the Reel upload flow, test the **YOUR MEDIA** and **YOUR POSTS** tabs, and check your **Admin Dashboard**. Let me know how it feels or if you need any further logic adjustments!",
+      "mentions": "",
+      "type": "fieldlog",
+      "file_name": "Kiplangat_Kingsley_Mie_Interpenetration 3-Model.pdf",
+      "file_url": "blob:http://localhost:5173/c673313c-3f77-41b5-a4b1-a56b3a3375af",
+      "file_type": "pdf",
+      "privacy": "public",
+      "created_at": "2026-04-03T13:00:43.499Z"
+    }
+  ],
+  "reactions": [],
+  "comments": [
+    {
+      "id": "88c731a2-0c5f-4026-8f74-5240b61fef6b",
+      "post_id": "ec56e78f-5bf1-4824-820c-0453064ad41a",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "body": "👍",
+      "created_at": "2026-03-31T18:15:50.061Z"
+    },
+    {
+      "id": "172bd9ec-1467-4f50-b594-062ed496afdc",
+      "post_id": "53aa0f85-17c1-4b0c-ba54-26f5f9d66f2a",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "body": "bh",
+      "created_at": "2026-04-01T03:33:58.993Z"
+    },
+    {
+      "id": "37277aa5-a0f2-4e68-aa6a-bc70d4072d0a",
+      "post_id": "4c549aac-9726-4660-8d2d-9282985a03f5",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "body": "hey engineer",
+      "created_at": "2026-04-03T11:46:24.363Z"
+    }
+  ],
+  "stories": [],
+  "reels": [
+    {
+      "id": "28e89c94-af72-4178-90b9-5de6dcaacd3e",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "test.inventor",
+      "description": "hvhjgvyhkbgft",
+      "video_url": "blob:http://localhost:5173/f2181f92-19dd-4d9d-b3cf-87d391cf7829",
+      "thumbnail": null,
+      "listing_id": null,
+      "likes": 22,
+      "views": 0,
+      "privacy": "public",
+      "created_at": "2026-04-03T13:16:24.029Z"
+    },
+    {
+      "id": "eb4cdc02-e930-4d15-b937-d2f53dd08da6",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "analyst graph",
+      "description": "dnsxuivsfxc",
+      "video_url": "http://localhost:4000/uploads/reel/video_1_965e57c8.mp4",
+      "thumbnail": null,
+      "listing_id": null,
+      "likes": 0,
+      "views": 0,
+      "privacy": "public",
+      "created_at": "2026-04-03T13:46:30.852Z"
+    },
+    {
+      "id": "6871f835-f878-4146-8d63-329b05810919",
+      "author_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "test 2",
+      "description": "tester",
+      "video_url": "http://localhost:4000/uploads/reel/Screen_Recording_2026-04-03_123751_32060c2a.mp4",
+      "thumbnail": null,
+      "listing_id": null,
+      "likes": 1,
+      "views": 0,
+      "privacy": "public",
+      "created_at": "2026-04-03T19:25:17.471Z",
+      "liked_by": [
+        "97b0c412-33f1-4956-a5fc-f35d4f919bb3"
+      ]
+    }
+  ],
+  "tutorials": [],
+  "market_listings": [
+    {
+      "id": "c9c1eb5f-b4cf-4f40-ac70-e20f23f6f467",
+      "seller_id": "97b0c412-33f1-4956-a5fc-f35d4f919bb3",
+      "title": "Cantilever Bridge FEA Report + ANSYS Model",
+      "description": "Detailed FEA report + ANSYS model files. Ideal for civil engineering studies.",
+      "category": "report",
+      "price": 80,
+      "currency": "USD",
+      "file_url": null,
+      "file_type": "pdf",
+      "tags": "civil,FEA,ANSYS",
+      "status": "active",
+      "views": 57,
+      "created_at": "2026-03-31T14:36:35.352Z"
+    },
+    {
+      "id": "34b4781b-3ba1-447a-8a47-aa81224cd110",
+      "seller_id": "0ab9a18c-7e4d-418d-ae74-88fb303e1b8a",
+      "title": "head scre",
+      "description": "a smart device",
+      "category": "other",
+      "price": 50,
+      "currency": "USD",
+      "file_url": "/uploads/market/trial_3_20a8c8c6.ipt",
+      "preview_url": null,
+      "demo_video_url": null,
+      "file_type": "ipt",
+      "tags": "",
+      "status": "active",
+      "views": 1,
+      "created_at": "2026-04-03T11:25:27.228Z"
+    }
+  ],
+  "transactions": [],
+  "notifications": []
+}
