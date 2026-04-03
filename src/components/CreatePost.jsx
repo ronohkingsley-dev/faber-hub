@@ -40,7 +40,7 @@ export default function CreatePost({ onClose, onCreated, postToEdit, onUpdated }
         const formData = new FormData();
         formData.append('file', file);
         const res = await API.post('/upload?type=post', formData, { headers:{'Content-Type':'multipart/form-data'} });
-        file_url = 'http://localhost:4000' + res.data.url;
+        file_url = (import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000') + res.data.url;
         file_name = file.name;
         file_type = file.name.split('.').pop();
       }

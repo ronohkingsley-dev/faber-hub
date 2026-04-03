@@ -37,7 +37,7 @@ export default function CreateListing({ onClose, onCreated }) {
     const formData = new FormData();
     formData.append('file', f);
     const { data } = await API.post(`/upload?type=${type}`, formData, { headers: { 'Content-Type': 'multipart/form-data' } });
-    return { url: 'http://localhost:4000' + data.url };
+    return { url: (import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000') + data.url };
   };
 
   const handleSubmit = async (e) => {

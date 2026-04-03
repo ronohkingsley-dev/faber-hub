@@ -30,7 +30,7 @@ export default function Messenger({ onClose, initialTarget = null }) {
 
   useEffect(() => {
     // 1. Establish Socket Connection
-    const s = io('http://localhost:4000');
+    const s = io(import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000');
     setSocket(s);
 
     s.on('connect', () => { s.emit('register', user.id); });

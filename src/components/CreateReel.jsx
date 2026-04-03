@@ -30,7 +30,7 @@ export default function CreateReel({ onClose, onCreated }) {
       const { data } = await API.post('/reels', {
         title: form.title,
         description: form.description,
-        video_url: 'http://localhost:4000' + uploadRes.data.url, // Full absolute path for static streaming
+        video_url: (import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000') + uploadRes.data.url, // Full absolute path for static streaming
         listing_id: form.intent === 'market' ? form.listing_id : null,
       });
       push('Reel published successfully!', 'success');
