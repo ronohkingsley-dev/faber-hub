@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "cd backend && npm install",
+    "start": "npm run build && cd backend && node server.js"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.2",
