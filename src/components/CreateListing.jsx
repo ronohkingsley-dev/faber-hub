@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { X, Upload, Tag, Info, Video, CheckCircle, FileCode } from 'lucide-react';
 import { useToast } from './Toast';
 import { useAuth } from '../context/AuthContext';
-import API from '../api/client';
+import API, { BACKEND_URL } from '../api/client';
 
 const CATEGORIES = [
   { value: 'drawing',     label: '📐 Drawing / DXF / DWG' },
@@ -37,7 +37,7 @@ export default function CreateListing({ onClose, onCreated }) {
     const formData = new FormData();
     formData.append('file', f);
     const { data } = await API.post(`/upload?type=${type}`, formData, { headers: { 'Content-Type': 'multipart/form-data' } });
-    return { url: (import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000') + data.url };
+    return { url: BACKEND_URL + data.url };
   };
 
   const handleSubmit = async (e) => {

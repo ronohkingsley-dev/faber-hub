@@ -125,6 +125,19 @@ io.on('connection', (socket) => {
   });
 });
 
+// ─── SERVE FRONTEND (PRODUCTION / LOCAL TUNNEL) ────────────────────────────────
+const distPath = path.join(__dirname, '../dist');
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(distPath, 'index.html'));
+  });
+} else {
+  app.get('/', (req, res) => {
+    res.send('API is running. (Frontend not built)');
+  });
+}
+
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`\n======================================================`);
   console.log(`[FABER.NET] BACKEND CORE DEPLOYED IN ${process.env.NODE_ENV || 'DEV'} MODE`);

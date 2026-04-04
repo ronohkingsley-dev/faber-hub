@@ -9,7 +9,7 @@ import CreateListing from '../components/CreateListing';
 import ModelViewer from '../components/ModelViewer';
 import { useToast } from '../components/Toast';
 import { useAuth } from '../context/AuthContext';
-import API from '../api/client';
+import API, { BACKEND_URL } from '../api/client';
 
 const CATS = [
   { value: 'all',         label: 'ALL' },
@@ -155,7 +155,7 @@ function ListingDetail({ listing, onBack, onBuy, onPurchased, showPay, onClosePa
         {listing.demo_video_url && (
           <div className="mt-3">
             <p className="text-[9px] font-black text-slate-600 uppercase tracking-widest mb-1.5 flex items-center gap-1.5"><Video className="w-3 h-3" />DEMO VIDEO</p>
-            <video src={`${import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000'}${listing.demo_video_url}`} controls className="w-full rounded-xl border border-white/5 max-h-64 object-contain bg-black" />
+            <video src={`${BACKEND_URL}${listing.demo_video_url}`} controls className="w-full rounded-xl border border-white/5 max-h-64 object-contain bg-black" />
           </div>
         )}
 

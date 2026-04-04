@@ -7,6 +7,7 @@ import { useAuth } from '../context/AuthContext';
 import { io } from 'socket.io-client';
 import Peer from 'peerjs';
 import { useToast } from './Toast';
+import { BACKEND_URL } from '../api/client';
 
 export default function Messenger({ onClose, initialTarget = null }) {
   const { user } = useAuth();
@@ -30,7 +31,7 @@ export default function Messenger({ onClose, initialTarget = null }) {
 
   useEffect(() => {
     // 1. Establish Socket Connection
-    const s = io(import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000');
+    const s = io(BACKEND_URL);
     setSocket(s);
 
     s.on('connect', () => { s.emit('register', user.id); });

@@ -5,6 +5,7 @@
 // ══════════════════════════════════════════════════════
 import { useRef, useState } from 'react';
 import { RotateCcw, ZoomIn, ZoomOut, Maximize2, Box } from 'lucide-react';
+import { BACKEND_URL } from '../api/client';
 
 const SUPPORTED_3D = new Set(['glb', 'gltf']);
 const SUPPORTED_IMG = new Set(['png', 'jpg', 'jpeg', 'webp', 'svg']);
@@ -79,7 +80,7 @@ export default function ModelViewer({ fileUrl, fileType, title, previewUrl }) {
             <p className="text-[10px] text-slate-600 mt-0.5">Download to view in your CAD application</p>
           </div>
           {fileUrl && (
-            <a href={`${import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000'}${fileUrl}`} download
+            <a href={`${BACKEND_URL}${fileUrl}`} download
               className="text-[10px] font-black text-sky-400 bg-sky-500/10 border border-sky-500/20 px-3 py-1.5 rounded-lg hover:bg-sky-500/20 transition-all">
               DOWNLOAD FILE
             </a>
